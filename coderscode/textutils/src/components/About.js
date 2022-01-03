@@ -47,7 +47,7 @@ export default function About() {
               aria-controls="collapseOne"
               style = {myStyle}
             >
-              Accordion Item #1
+              Analyse your text
             </button>
           </h2>
           <div
@@ -79,7 +79,7 @@ export default function About() {
               aria-controls="collapseTwo"
               style = {myStyle}
             >
-              Accordion Item #2
+              Free to Use
             </button>
           </h2>
           <div
@@ -111,7 +111,7 @@ export default function About() {
               aria-controls="collapseThree"
               style = {myStyle}
             >
-              Accordion Item #3
+              Browser copatible
             </button>
           </h2>
           <div

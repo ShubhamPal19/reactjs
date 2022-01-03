@@ -3,6 +3,7 @@ import React, { useState } from "react";
 export default function Textform(props) {
   const handleUpClick = () => {
     let newtext = text.toUpperCase();
+    props.showAlert("Converted to upper case", "success");
 
     setf(newtext);
   };
@@ -13,6 +14,7 @@ export default function Textform(props) {
   };
   const handleLoClick = () => {
     let newtext = text.toLowerCase();
+    props.showAlert("Converted to lower case", "success");
 
     setf(newtext);
   };
@@ -43,11 +45,11 @@ export default function Textform(props) {
           ></textarea>
         </div>
 
-        <button className="btn btn-primary mx-2" onClick={handleUpClick}>
+        <button disabled={text.length ===0} className="btn btn-primary mx-2 my-2" onClick={handleUpClick}>
           {" "}
           Convert to Uppercase
         </button>
-        <button className="btn btn-primary mx-2" onClick={handleLoClick}>
+        <button disabled={text.length ===0} className="btn btn-primary mx-2 my-2" onClick={handleLoClick}>
           {" "}
           Convert to Lowercase
         </button>
@@ -60,9 +62,9 @@ export default function Textform(props) {
             }}>
         <h2>Your Text Summary</h2>
         <p>
-          {text.split(" ").length} words and {text.length} characters
+          {text.split(/\s+/).filter((element)=>{return element.length!==0}).length} words and {text.length} characters
         </p>
-        <p>Reading time : {0.01 * text.split(" ").length} minutes</p>
+        <p>Reading time : {0.01 * text.split(" ").filter((element)=>{return element.length!==0}).length} minutes</p>
 
         <h2>Preview</h2>
         <p>{text}</p>

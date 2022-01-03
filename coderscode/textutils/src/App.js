@@ -6,6 +6,14 @@ import About from './components/About';
 import Alert from './components/Alert';
 import React, { useState } from 'react';
 
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
+} from "react-router-dom";
+
+
 
 let name = "shubham";
 function App() {
@@ -42,15 +50,28 @@ function App() {
   }
   return (
     <> 
-       
+      <Router> 
       <Navbar title = "TextUtils" mode ={mode} toggleMode={toggleMode} textColor = {textColor}></Navbar>
 
       <Alert alert ={alert}></Alert>
      
       <div className="container my-3">
-        <Textform mode ={mode} heading = "Enter the text to analyze"></Textform>
-        <About></About>
+
+      <Routes>
+          <Route path="/about" element = {  <About />}/>
+          
+        
+          <Route exact path="/" element = { <Textform mode ={mode}  showAlert ={showAlert} heading = "Enter the text to analyze"></Textform>
+       } />
+            
+             
+        
+      </Routes>
+
         </div>
+
+      </Router>
+      
     </>
   );
  
