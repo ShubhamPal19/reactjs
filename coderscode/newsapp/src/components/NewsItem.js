@@ -6,11 +6,14 @@ export default class NewsItem extends Component {
       this.props;
     return (
       <div>
+
         <div className="card">
-          <span className="position-absolute top-0  translate-middle badge rounded-pill bg-danger" style ={{left: '90%', zIndex: 1}}>
-        {source}
-            
-          </span>
+
+        <div className="container">
+            <span className="position-absolute  badge rounded-pill bg-danger" style ={{zIndex: 1,display:"flex",right:-5}}>{source}</span>
+          
+            </div>
+
           <img
             src={
               imageUrl
@@ -34,6 +37,7 @@ export default class NewsItem extends Component {
               Read More
             </a>
           </div>
+     
         </div>
       </div>
     );
