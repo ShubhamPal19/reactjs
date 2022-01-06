@@ -1,0 +1,56 @@
+{
+  "status": "ok",
+  "totalResults": 5,
+  "articles": [
+    {
+      "source": { "id": "bbc-sport", "name": "BBC Sport" },
+      "author": "BBC Sport",
+      "title": "Quiz: How well do you remember Ashes Tests at Sydney?",
+      "description": "The fourth men's Ashes Test at Sydney starts on Tuesday. Test your knowledge of previous matches at the Sydney Cricket Ground.",
+      "url": "http://www.bbc.co.uk/sport/cricket/59818549",
+      "urlToImage": "https://ichef.bbci.co.uk/live-experience/cps/624/cpsprodpb/5FCB/production/_122532542_steve_harmison.png",
+      "publishedAt": "2022-01-03T10:37:26.1330095Z",
+      "content": "<table><tr><th>The Ashes: Australia v England, fourth Test</th></tr>\r\n<tr><td>Venue: Sydney Cricket Ground Date: 5-9 January Time: 23:30 GMT (4 January)</td></tr><tr><td>Coverage: Daily highlights sh… [+578 chars]"
+    },
+    {
+      "source": { "id": "bbc-sport", "name": "BBC Sport" },
+      "author": "BBC Sport",
+      "title": "South Africa v India - Cricket - BBC Sport",
+      "description": "Find out the in depth batting and bowling figures for South Africa v India in the International Test Match Series on BBC Sport.",
+      "url": "https://www.bbc.co.uk/sport/cricket/scorecard/ECKO51800",
+      "urlToImage": "https:////m.files.bbci.co.uk/modules/bbc-morph-sport-seo-meta/1.22.0/images/bbc-sport-logo.png",
+      "publishedAt": "2022-01-03T07:52:23.2059321Z",
+      "content": "South Africa\r\n<ul><li>Dean Elgar(c)</li><li>Aiden Markram</li><li>Keegan Petersen</li><li>Rassie van der Dussen</li><li>Temba Bavuma</li><li>Kyle Verreynne(wk)</li><li>Marco Jansen</li><li>Kagiso Rab… [+355 chars]"
+    },
+    {
+      "source": { "id": "abc-news-au", "name": "ABC News (AU)" },
+      "author": "Russell Jackson",
+      "title": "Jamie Mitchell's dream was a baggy green cap, but a cricket tour from hell has left him searching for answers",
+      "description": "Jamie Mitchell was a cricketing star on the rise in the 1980s. But since returning home from a tour of India and Sri Lanka, broken in body and mind by his experiences, Mitchell has been searching for answers on what happened.",
+      "url": "http://www.abc.net.au/news/2022-01-02/jamie-mitchell-cricket-abuse-on-india-and-sri-lanka-tour/100715912",
+      "urlToImage": "https://live-production.wcms.abc-cdn.net.au/7baa6d11b28c5794a1e9a13ec19e58c0?impolicy=wcms_crop_resize&cropH=2666&cropW=4740&xPos=0&yPos=330&width=862&height=485",
+      "publishedAt": "2022-01-01T19:04:56Z",
+      "content": "Asked to describe what Jamie Mitchell was like as a teenager, his friend and former teammate Gerard Clarke cuts to the chase: \"He lived for his cricket and he probably didn't have his eye out to do m… [+69272 chars]"
+    },
+    {
+      "source": { "id": "espn-cric-info", "name": "ESPN Cric Info" },
+      "author": null,
+      "title": "PCB hands Umar Akmal three-year ban from all cricket | ESPNcricinfo.com",
+      "description": "Penalty after the batsman pleaded guilty to not reporting corrupt approaches | ESPNcricinfo.com",
+      "url": "http://www.espncricinfo.com/story/_/id/29103103/pcb-hands-umar-akmal-three-year-ban-all-cricket",
+      "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1099495_800x450.jpg",
+      "publishedAt": "2020-04-27T11:41:47Z",
+      "content": "Umar Akmal's troubled cricket career has hit its biggest roadblock yet, with the PCB handing him a ban from all representative cricket for three years after he pleaded guilty of failing to report det… [+1506 chars]"
+    },
+    {
+      "source": { "id": "espn-cric-info", "name": "ESPN Cric Info" },
+      "author": null,
+      "title": "What we learned from watching the 1992 World Cup final in full again | ESPNcricinfo.com",
+      "description": "Wides, lbw calls, swing - plenty of things were different in white-ball cricket back then | ESPNcricinfo.com",
+      "url": "http://www.espncricinfo.com/story/_/id/28970907/learned-watching-1992-world-cup-final-full-again",
+      "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1219926_1296x729.jpg",
+      "publishedAt": "2020-03-30T15:26:05Z",
+      "content": "Last week, we at ESPNcricinfo did something we have been thinking of doing for eight years now: pretend-live ball-by-ball commentary for a classic cricket match. We knew the result, yes, but we tried… [+6823 chars]"
+    }
+  ]
+}
